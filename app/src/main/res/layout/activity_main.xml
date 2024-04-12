@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_header_txt"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:padding="16dp">
+
+    </TextView>
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/title" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/main_title_txt"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="16dp" />
+
+</RelativeLayout>

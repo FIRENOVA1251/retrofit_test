@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Test 0319</string>
+
+    <!-- Main page -->
+
+    <string name="main_header_txt">Header</string>
+    <string name="main_title_txt">Title</string>
+
+    <!-- detail page -->
+    <string name="detail_title_id">id: </string>
+    <string name="detail_title_owner">owner: </string>
+    <string name="detail_title_secret">secret: </string>
+    <string name="detail_title_server">server: </string>
+    <string name="detail_title_farm">farm: </string>
+    <string name="detail_title_title">title: </string>
+    <string name="detail_title_ispublic">ispublic: </string>
+    <string name="detail_title_isfriend">isfriend: </string>
+    <string name="detail_title_isfamily">isfamily: </string>
+    <string name="default_back_btn">GO BACK</string>
+
+
+
+    <string name="default_txt">xxx</string>
+
+</resources>
